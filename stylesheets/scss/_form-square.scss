@@ -1,0 +1,27 @@
+.form-square{
+    .input-border{
+        border:none;
+
+    }
+    .form-control:focus{
+        border-color: transparent;
+        box-shadow: none;
+    }
+    .custom-checkbox .custom-control-label{
+        &:before{
+            border-radius: 0 !important;
+        }
+    }
+    .custom-control-input:focus ~ .custom-control-label::before{
+        // border-color: transparent;
+        box-shadow: none;
+    }
+    .credit{
+        cursor: pointer;
+    }
+    .credit.active{
+        color:$primary !important;
+        border-color: transparent;
+        box-shadow: none;
+    }
+}
