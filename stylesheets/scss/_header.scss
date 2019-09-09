@@ -19,14 +19,22 @@
     border-color:transparent !important;
 } 
 
-.nav-link{
+.nav-text{
+    color:$secondary !important;
     @include media-breakpoint-up(md){
-        // color:#fff !important;
+        color:#fff !important;
         &:hover{
             color:#c77d05 !important;
         }
     }
 }
+
+// .nav-text{
+//     color:$secondary ;
+//     @include media-breakpoint-up(md){
+//         color:#fff !important;
+//     }
+// }
 
 .header-border{
     @include media-breakpoint-up(md){
