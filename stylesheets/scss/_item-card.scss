@@ -4,7 +4,7 @@
   .rectangle-left{
     @include media-breakpoint-up(md){
         position: absolute;
-        top:-50px;
+        top:0px;
         left:-30px;
         width:400px;
         height:300px;
@@ -55,6 +55,9 @@
           
       }
   }
+  .item-h{
+    height: 300px;
+  }
     .item-tag{
       position: absolute;
       top:0;
@@ -69,7 +72,6 @@
   .item-icon{
       margin-top:5px;
   }
-  
   .ui-checked-display {
       margin-bottom: 0;
       cursor: pointer;

@@ -83,14 +83,13 @@
                             <div class="my-4 ">
                                 <form class="form-square">
                                     
-                                    <div class="form-group border p-1 ">
-                                        <label for="cardnum1 " class="d-block">Card</label>
-                                        
-                                        <input type="text" name="cardnum" id="cardnum1" class="form-control input-border d-inline-block" maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
+                                    <div class="form-group border py-1 ">
+                                        <label for="cardnum1" class="d-block i-credit ml-1" >Card</label>
+                                        <input type="text" name="cardnum" id="cardnum1" class="form-control input-border d-inline-block ml-4" maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
                                         <span>－</span>
                                         <input type="text" name="cardnum" id="cardnum2" class="form-control input-border d-inline-block" maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
                                         <span>－</span>
-                                        <input type="text" name="cardnum" id="cardnum3" class="form-control input-border d-inline-block" maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
+                                        <input type="text" name="cardnum" id="cardnum3" class="form-control input-border d-inline-block " maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
                                         <span>－</span>
                                         <input type="text" name="cardnum" id="cardnum4" class="form-control input-border d-inline-block" maxlength="4" placeholder="1111" onkeyup="value=value.replace(/[^0-9]/g,'')" style="width:61px">
                                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -107,20 +106,20 @@
                                     </div>
                                     
                             
-                                    <div class="form-group p-1  border ">
-                                            <label for="inputGoodThru " >GOOD THRU</label>
+                                    <div class="form-group py-1  border ">
+                                            <label for="inputGoodThru" class="i-goodthru ml-1">GOOD THRU</label>
                                             <input type="month" name="GoodThru" id="inputGoodThru" class="form-control input-border ">
                                     </div> 
-                                    <div class="form-group  p-1 border " style="width: 200px;">
-                                            <label for="inputBackNum" >BackNum</label>
+                                    <div class="form-group  py-1 border " style="width: 200px;">
+                                            <label for="inputBackNum" class="ml-1">BackNum</label>
                                             <input type="text" name="BackNum" id="inputBackNum" class="form-control input-border " maxlength="3" onkeyup="value=value.replace(/[^0-9]/g,'')" placeholder="345">
                                     </div>
                                     
                                 </form>
-                                <button type="button" class="btn btn-primary w-100 rounded-0 text-secondary-dark py-1 my-3 font-weight-bold mt-7" onclick="location.href='finish.html'">NEXT</button> 
+                                
                             </div>
                         </div>  
-
+                        <button type="button" class="btn btn-primary w-md-81 rounded-0 text-secondary-dark py-2 mt-1 font-weight-bold " onclick="location.href='finish.html'">下一步</button> 
                     </div>
                 </div>
             </section>

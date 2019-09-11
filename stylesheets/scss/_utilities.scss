@@ -1,4 +1,4 @@
-$text-secondary-dark:#9e6915;
+$text-secondary-dark:#37332f;
 
 .bg-cover{
     background-repeat: no-repeat;
@@ -36,4 +36,19 @@ color:$text-secondary-dark;
 
 .modal-content{
     border-radius:0 !important;
+}
+.w-md-80{
+    width: 100%;
+    @include media-breakpoint-up(md){
+        width:80%;
+    }
+    
+}
+
+.w-md-81{
+    width: 100%;
+    @include media-breakpoint-up(md){
+        width:81%;
+    }
+    
 }
